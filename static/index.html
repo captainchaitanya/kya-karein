@@ -66,10 +66,11 @@
   #empty h1 {
     font-family: var(--display); font-weight: 700;
     font-size: clamp(2.2rem, 5.5vw, 4.4rem); line-height: 1.08;
-    margin: 18px 0 0; max-width: 16ch;
+    margin: 18px 0 0;
     text-shadow: 0 4px 24px rgba(0,0,0,.25);
   }
-  #empty p.sub { font-size: clamp(1rem, 1.8vw, 1.3rem); opacity: .88; margin: 0; }
+  #empty h1 .line2 { display: block; font-size: .72em; margin-top: .15em; }
+  #empty p.sub { font-size: clamp(1rem, 1.8vw, 1.3rem); opacity: .88; margin: 0; max-width: 46ch; }
   #empty p.call {
     margin: 10px 0 0; font-family: var(--display); font-weight: 600; font-size: 1.3rem;
     background: rgba(255,255,255,.16); border: 1px solid rgba(255,255,255,.3);
@@ -203,8 +204,8 @@
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 14a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v5a3 3 0 0 0 3 3zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.92V21h2v-3.08A7 7 0 0 0 19 11h-2z"/></svg>
       </div>
       <div class="wave" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
-      <h1>Call Kya Karein and tell it about your day</h1>
-      <p class="sub">Your picks will appear here while you talk</p>
+      <h1>Aaj kya karein?<span class="line2">Bas apna mood batao.</span></h1>
+      <p class="sub">Talk about your day and your book, movie, show and game picks appear right here.</p>
       <p class="call"><span class="live-dot" aria-hidden="true"></span>Waiting for your call</p>
     </section>
 
